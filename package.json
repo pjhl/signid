@@ -1,6 +1,6 @@
 {
   "name": "signid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tiny library to generate signed identifiers",
   "main": "src/index.js",
   "scripts": {

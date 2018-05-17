@@ -40,6 +40,15 @@ something safe. It doesn't withstand any security requirements.
 * Supports positive integers only (0 - `Number.MAX_SAFE_INTEGER`)
 
 
+## Install
+
+Using [NPM](https://www.npmjs.com/):
+
+```bash
+npm i signid
+```
+
+
 ## Signed identifiers example
 
 | ID | Signed |
