@@ -10,7 +10,8 @@
     "node": ">= 8.0"
   },
   "keywords": [],
-  "author": "",
+  "author": "pjhl <pjhl.coder@gmail.com>",
+  "repository": "pjhl/signid",
   "license": "ISC",
   "devDependencies": {
     "standard": "^11.0.1"
