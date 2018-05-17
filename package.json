@@ -4,7 +4,7 @@
   "description": "Tiny library to generate signed identifiers",
   "main": "src/index.js",
   "scripts": {
-    "test": "standard"
+    "test": "standard && mocha"
   },
   "engines": {
     "node": ">= 8.0"
@@ -14,6 +14,8 @@
   "repository": "pjhl/signid",
   "license": "ISC",
   "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^5.1.1",
     "standard": "^11.0.1"
   }
 }

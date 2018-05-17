@@ -34,5 +34,23 @@ something safe. It doesn't withstand any security requirements.
 
 * Server-side code (uses node **crypto** md5)
 * Simple usage
-* Signed integer as string (3-20 chars length)
+* Signed integer as string about (7-20 chars length)
 * Supports positive integers only (0 - *MAX_SAFE_INTEGER*)
+
+
+## Signed identifiers example
+
+| ID | Signed |
+|----|--------|
+| 0 | `:::javascript 'fmh1hp-0'` |
+| 1 | `:::javascript '1invht9-1'` |
+| 2 | `:::javascript 'j3c2f3-2'` |
+| 3 | `:::javascript '1tp4u3p-3'` |
+| 100 | `:::javascript '1f9pfif-2s'` |
+| 1000 | `:::javascript '1ekln37-rs'` |
+| 1001 | `:::javascript '1b3b3xt-rt'` |
+| 1002 | `:::javascript '105opf1-ru'` |
+| 88888 | `:::javascript '1buzr2q-1wl4'` |
+| 9007199254740991 | `:::javascript 'iim0na-2gosa7pa2gv'` (`Number.MAX_SAFE_INTEGER`) |
+
+P.S. This table is generated with secret `Your secret`
