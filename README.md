@@ -3,6 +3,7 @@ Signid
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Node.js version](https://img.shields.io/node/v/signid.svg)](https://nodejs.org/en/download/)
+[![Build Status](https://travis-ci.org/pjhl/signid.svg?branch=master)](https://travis-ci.org/pjhl/signid)
 
 Signid is a tiny [node.js](http://nodejs.org/) server-side library for signing
 and verifying integer identifiers.
